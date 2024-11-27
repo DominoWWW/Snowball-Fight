@@ -36,3 +36,4 @@ $scoreboard players add @p[nbt={UUID:$(Owner)}] SF.score 1
 $execute as @p[nbt={UUID:$(Owner)}] at @s run playsound entity.arrow.hit_player master @s ~ ~ ~ 0.5 1 1
 scoreboard players set @s SF.timeout -180
 $tellraw @p[nbt={UUID:$(Owner)}] ["",{"text":"\u2744 You hit ","color":"aqua"},{"selector":"@s","color":"aqua"},{"text":" \u2744","color":"aqua"}]
+

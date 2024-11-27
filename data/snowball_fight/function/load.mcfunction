@@ -6,6 +6,8 @@ scoreboard objectives add SF.afk dummy
 scoreboard objectives add SF.timeout dummy
 scoreboard objectives add SF.score dummy "Snowball Fight Leaderboard"
 
+scoreboard objectives modify SF.score numberformat styled {"color":"aqua"}
+
 function snowball_fight:afk
 function snowball_fight:timeout
 
